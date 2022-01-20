@@ -1,0 +1,390 @@
+@charset "ISO-8859-1";
+<style>
+/*login*/
+.login-box div{
+width: 65%;
+height: 100px;
+padding: 0px 0px 70px 30px;
+}
+img{
+width:100%;
+}
+body{
+margin: 0;
+padiing: 0;
+font-family: sans-serif;
+}
+h1{
+margin: 0;
+padding: 0 0 20px;
+text-align: center;
+font-size: 22px;
+color: #069;
+font-family: auto;
+}
+.login-box p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+.login-box{
+width: 320px;
+height: 420px;
+top: 65%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 70px 30px;
+background: #ffad11;
+border-radius: 25px;
+}
+
+.login-box input{
+width: 100%;
+margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]{
+border: none;
+border-bottom: 1px solid #000;
+background: transparent;
+outline: none;
+height: 40px;
+font-size: 16px;
+}
+.login-box input[type="submit"]{
+border: none;
+outline: none;
+height: 40px;
+background: #069;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+}
+.login-box a{
+text-decoration: none;
+font-size: 16px;
+line-height: 20px;
+color: #fff;
+}
+section{
+width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(0,34,76,0.9), rgba(0,34,76,0.9)),url('main.jpg');
+}
+/*signup*/
+.signup-box div{
+width: 65%;
+height: 100px;
+padding: 0px 0px 70px 30px;
+}
+
+.signup-box p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+.signup-box{
+width: 320px;
+height: 480px;
+top: 49%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 0px 30px;
+background: transparent;
+border-radius: 25px;
+}
+
+.signup-box input{
+width: 100%;
+margin-bottom: 20px;
+}
+.signup-box input[type="text"], input[type="password"],select{
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+font-size: 16px;
+color: #fff;
+}
+.signup-box input[type="submit"]{
+padding: 10px;
+border: none;
+outline: none;
+height: 40px;
+background: #069BFF;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+}
+.signup-box a{
+text-decoration: none;
+font-size: 16px;
+line-height: 20px;
+color: #fff;
+}
+p{
+	color: #fff;
+}
+.signup-box select{
+	padding-bottom: 10px;
+}
+.signup-box option{
+	color: #000000;
+	
+}
+
+/*Admin Create*/
+
+.admin-signup-box div{
+width: 65%;
+height: 100px;
+padding: 0px 0px 70px 30px;
+}
+.admin-signup-box h1{
+	color:#069;
+	font-family:auto;
+}
+
+.admin-signup-box p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+color:grey;
+}
+.admin-signup-box{
+width: 320px;
+height: auto;
+top: 61.7%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 10px 30px;
+background: #ffad11;
+border-radius: 25px;
+}
+
+.admin-signup-box input{
+width: 100%;
+margin-bottom: 20px;
+}
+.admin-signup-box input[type="text"], input[type="password"],select{
+border: none;
+border-bottom: 1px solid #000;
+background: transparent;
+outline: none;
+height: 40px;
+font-size: 16px;
+color: #000;
+}
+.admin-signup-box input[type="submit"]{
+padding: 10px;
+border: none;
+outline: none;
+height: 40px;
+background: #069;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+}
+.admin-signup-box a{
+text-decoration: none;
+font-size: 16px;
+line-height: 20px;
+color: #fff;
+}
+.admin-signup-box select{
+	padding-bottom: 10px;
+}
+.admin-signup-box option{
+	color: #000000;
+	
+}
+/*Home*/
+
+/*Test*/
+.container-1{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffad11;
+    border: 1px solid black;
+    border-radius: 25px 25px 25px 25px;
+    text-align: center;
+    align-items: center;
+}
+.container-1 p{
+	font-weight:bold;
+	text-align:center;
+	color:#069;
+}
+
+.flex-box-container-1{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.flex-box-container-1 button{
+	background-color: #069;
+	border-radius: 25px 25px 25px 25px;
+	width: 260px;
+	height: 260px;
+}
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: #ffad11;
+}
+.container-2{
+    width: auto;
+    margin: 0 auto;
+    background-color:  #ffad11;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid black;
+    align-items: center;
+}
+.container-2 input[type="submit"]{
+padding: 10px;
+border: none;
+outline: none;
+height: 40px;
+background: #069;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+align-items: center;
+}
+.container-2 p{
+	font-weight:bold;
+	text-align:center;
+	color:#069;
+}
+.flex-box-container-2{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.flex-box-container-2 button{
+
+	background-color: #069;
+	border-radius: 25px 25px 25px 25px;
+	width: 260px;
+	height: 260px;
+	
+}
+.click img{
+	display:block;
+	width:100%;
+	height:160px;
+}
+/*SideBar*/
+
+.sidebar{
+	height:80% ;
+	width: 160px;
+	position: absolute;
+	top: 155px;
+	left: 20px;
+	background-color: #111E6C;
+	padding-top: 16px;
+	border-radius: 25px;
+}
+.sidebar a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	color:#ffad11;
+	display: block;
+}
+/*Navigation*/
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	background-color: #069;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%
+	
+}
+nav ul{
+	display: flex;
+	
+}
+nav ul li a{
+	margin: 30px;
+	font-family: myriad pro regular;
+	color:#FFFFFF;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.logo{
+	font-family: RoadTest;
+	color:#000000;
+	font-size: 22px;
+}
+/*Create Quiz*/
+
+.flex-box-container-3 input[type="text"], input[type="password"],select{
+border: none;
+border-bottom: 1px solid #000;
+background: transparent;
+outline: none;
+width:90%;
+height: 45px;
+font-size: 16px;
+color: #000;
+}
+.flex-box-container-3 input[type="submit"]{
+padding: 10px;
+border: none;
+outline: none;
+height: 40px;
+background: #069;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+}
+.flex-box-container-3{
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: row;
+}
+.flex-box-container-3 p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+/*Quiz BOX*/
+.container-3{
+    width: auto;
+    margin: 0 auto;
+    background-color: #F8C749;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid black;
+    align-items: center;
+}
+.click-button1{
+padding: 10px;
+border: none;
+outline: none;
+height: 40px;
+background: #069;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+}
+
+</style>
