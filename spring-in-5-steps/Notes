@@ -1,0 +1,133 @@
+   1.Enables Testable Codes
+ 2.No Plumbing code
+ 3.Flexible Architecture
+ 4.Staying Current
+ 
+ Scope of Beans:
+ Default: Singleton
+ Singleton:One instance per spring context
+ Prototype:New bean whenever requested
+ request:One bean per HTTP request
+ session:One bean per http session
+ 
+ DAO-Data Access Object
+ **Logger**
+ As less object as possible becoz occupy memory
+ 
+ CDI(Context and dependency injection)
+ *Java EE Dependency Injection Standard(JSR-330)
+ *Spring Supports most annotations
+ 	@Inject(@Autowired)
+ 	@Named(@Component&@Qualifier)
+ 	@Singleton(Defines a scope of singleton)
+ 	
+ DISAMBIGUATION
+ 	*IOC Container
+ 	*Application Context
+ 	*Bean Factory
+ 
+ Implementaion of IOC container are Application Context and Bean Factory
+ 
+ Application Context
+ *Bean Factory++
+ 	*Spring AOP features
+ 	*l18n capabilites
+ 	*WebApplicationContext for web application etc
+ 	
+ Componenet Annotations
+ *@Component- Generic COmponent
+ *@Repository-Encapsulating storage, retrivel and search behavior typically from a relational database
+ *@Service-Business Service Facade
+ *@Controller-Controller in MVC pattern
+ 
+ What is Unit Testing?
+ What is JUnit?
+ 
+ Screen Testing-Testing after deployment.
+ 
+ Unit Test-Test for each method
+ 
+ Junit-It is the framework used for unit testing. Automation testing.
+ Absence of failure is success.
+ 
+ @Before
+ @Test
+ @After
+ @BeforeClass
+ @AfterClass
+ 
+ 
+ Spring Unit Test
+ 
+ Spring Unit Test using XML
+ 
+ 
+ Spring Boot
+ 
+ Goals-Enable building production ready application quickly
+ Provide common non-functional features
+ 	*embedded server
+ 	*metrics
+ 	*health checks
+ 	*externalized configuration
+ 	
+ What Spring Boot is nOt?
+ Zero code generation
+ Neither an application server nor a web server
+ 
+ Features
+ Quick Starter Projects with Auto Configuration
+ 	*Web
+ 	*JPA
+ Embedded Server-Tomcat,Jetty or undertow
+ Production-ready features-Spring Boot Actuator
+ 	*metrics and health checks
+ 	*externalized configuration
+ 	
+ /books=> Few HardCoded Books
+ AutoConfiguration
+ 
+ Spring boot vs Spring MVC
+ 
+ What is the core problem that  spring framework solves?
+ 
+ Most important features of Spring framework is Dependency injection. At the core of all spring modules is dependency injection or Inversion of control
+ 
+ Why it is important?
+ Because when DI or IOC is used properly we can develop loosely coupled application. And lossely coupled application can be easily unit tested
+ 
+ What is the core problem that Spring MVC framework solves?
+ Spring MVC framework provides decoupled way of developing web application. With simple concept like dispatcher servlet, modelAndView resolver.it makes it easy to develop web applications
+ 
+ Why do we need Spring Boot?
+ Spring based application have lot of configuration
+ When we use Spring MVC we need to configure component scan, dispatcher servlet,a view resolver,web jars among other things
+ 
+ Spring boot looks at framework available on the classpath existing configuration for the application Based on these Spring Boot provides basic configuration needed to configure the application with these framework
+ This is called Auto configuration.
+ 
+ Other Goal of Spring boot
+ Spring boot starter actuator-To use advanced features like monitoring and tracing to your out of the box
+ spring boot starter undertow,spring boot starter jetty, spring boot starter tomcat-To pick your speific choice embedded servlet container
+ spring boot starter logging-for logging using logback
+ spring boot starter-log4j2-logging using log4j2
+ spring boot starter web services-Soap Web services
+ spring boot starter Web-Web and restful applications
+ spring boot starter test- Unit testing and integration Testing
+ spring boot starter jdbc- Traditional JDBC
+ spring boot starter hateoas- Add Hateoas features to your services
+ spring boot starter security- Authentication and Authorization using Spring
+ spring boot starter data jpa- Spring data JPA with hibernate
+ spring boot starter cache- Enabling Spring framework caching support
+ spring boot starter data rest-Expose simple REST services using Spring DATA REST
+ 
+ 
+ Eclipse Tutorials
+ 
+ ctrl+space
+ ctrl+1
+ ctrl+shift+R(and T)
+ F3
+ F4
+ Ctrl+shift+L
+ alt+shift+s
